@@ -1,0 +1,13 @@
+[package]
+name = "ANTS"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+ggez = "0.9.3"
+rs-snowflake = "0.6.0"
+
+[profile.release]
+debug = true
+
